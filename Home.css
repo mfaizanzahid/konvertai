@@ -21,6 +21,7 @@
 }
 
 .u-section-1 .u-text-2 {
+  line-height: 1.4;
   margin: 18px 0 0;
 }
 
@@ -112,7 +113,7 @@
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
     width: auto;
-    margin-top: 48px;
+    margin-top: 11px;
   }
 
   .u-section-1 .u-image-1 {
@@ -159,7 +160,7 @@
 
 @media (max-width: 1199px) {
    .u-section-2 {
-    min-height: 539px;
+    min-height: 663px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
@@ -167,18 +168,29 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 406px;
+    min-height: 663px;
   }
 
   .u-section-2 .u-video-1 {
     width: 880px;
     height: 495px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 51px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 45px;
   }
 }
 
 @media (max-width: 991px) {
+   .u-section-2 {
+    min-height: 539px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 406px;
+  }
+
   .u-section-2 .u-video-1 {
     width: 660px;
     height: 371px;
@@ -244,6 +256,7 @@
 }
 
 .u-section-3 .u-text-2 {
+  line-height: 2.4;
   margin: 24px 0 0;
 }
 
@@ -374,6 +387,10 @@
     font-size: 1.875rem;
   }
 
+  .u-section-3 .u-text-2 {
+    line-height: 1.4;
+  }
+
   .u-section-3 .u-layout-cell-2 {
     min-height: 324px;
   }
@@ -385,4 +402,12 @@
   .u-section-3 .u-custom-html-1 {
     width: 320px;
   }
+}.kmodal {
+max-width:90%;
+max-height:90%;
+overflow-y: auto;
+overflow-x:hidden;
 }
+.mailjetform {
+max-width:110%;
+} 
