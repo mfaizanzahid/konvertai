@@ -41220,11 +41220,42 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -41269,13 +41300,13 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-size: 4.5rem;
+        font-size: 3rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-weight: 700;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
+        font-weight: 700;
         }
         h2:not(.u-subtitle)
         {
@@ -41322,20 +41353,32 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 1.5rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        text-transform: none;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Roboto,sans-serif;
         font-weight: 400;
         }
         p.u-small-text
         {
-        font-size: 0.875rem;
+        font-size: 1.25rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Roboto,sans-serif;
         }
         p:not(.u-text-variant)
         {
-        font-size: 1.125rem;
+        font-size: 1.5rem;
         margin-top: 20px;
         margin-bottom: 20px;
-        line-height: 1.6;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Roboto,sans-serif;
         }
         a
         {
@@ -41465,10 +41508,49 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 1.5rem;
         }
         }
+        @media (max-width: 991px) {
+        p.u-large-text
+        {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-weight: 400;
+        }
+        }
+        @media (max-width: 767px) {
+        p.u-large-text
+        {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        }
+        }
+        @media (max-width: 575px) {
+        p.u-large-text
+        {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.1;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        }
+        }
         @media (max-width: 767px) {
         p:not(.u-text-variant)
         {
         font-size: 1rem;
+        }
+        }
+        @media (max-width: 575px) {
+        p:not(.u-text-variant)
+        {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         }
         @media (max-width: 767px) {
@@ -41564,13 +41646,40 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         font-size: 1.5rem;
         }
+        .u-md p.u-large-text
+        {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-weight: 400;
+        }
+        .u-sm p.u-large-text
+        {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-weight: 400;
+        }
+        .u-xs p.u-large-text
+        {
+        font-size: 1.5rem;
+        line-height: 2.1;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-weight: 400;
+        }
         .u-sm p:not(.u-text-variant)
         {
         font-size: 1rem;
         }
         .u-xs p:not(.u-text-variant)
         {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         .u-sm a
         {
